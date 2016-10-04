@@ -24,21 +24,11 @@
         />
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/heart"
+        android:layout_width="250dp"
+        android:layout_height="450dp"
+        android:src="@drawable/ace_of_hearts"
         android:layout_gravity="center"
         android:id="@+id/imageView" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/heart"
-        android:layout_gravity="bottom"
-        android:rotation="180"
-        android:layout_marginLeft="310dp"
-        android:layout_marginBottom="60dp"
-        />
 
     <TextView
         android:layout_width="50dp"
@@ -48,10 +38,20 @@
         android:gravity="center"
         android:textColor="@android:color/holo_red_dark"
         android:textStyle="bold"
-        android:layout_gravity="bottom"
         android:rotation="180"
-        android:layout_marginLeft="310dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/heart"
+        android:rotation="180"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/imageView4" />
 
 </FrameLayout>
